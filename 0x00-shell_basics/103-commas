@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -almXp --group-directories-first | tr -d '\n'; echo
