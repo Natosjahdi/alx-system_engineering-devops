@@ -1,2 +1,2 @@
 #!/bin/bash
-set | grep -v '^[a-z_][a-z0-9_]*=()' | sort
+echo "Local Variables:"; set -o posix; set | less; echo "Environment Variables:"; printenv | less; echo "Functions:"; declare -F | less
