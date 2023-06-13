@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Local Variables:"; set -o posix; set | less; echo "Environment Variables:"; printenv | less; echo "Functions:"; declare -F | less
+echo " set | less printenv | less declare -F | less"
