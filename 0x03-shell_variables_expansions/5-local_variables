@@ -1,2 +1,2 @@
 #!/bin/bash
-echo  set | less printenv | less declare -F | less
+set | grep -v '^[a-z_][a-z0-9_]*=()' | sort
